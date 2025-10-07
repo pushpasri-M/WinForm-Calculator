@@ -23,8 +23,8 @@ namespace WinFormsApp1
         public void operator_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
-            operation = b.Text;                  
-            value = Double.Parse(textBox1.Text); 
+            operation = b.Text;
+            value = Double.Parse(textBox1.Text);
             operationPressed = true;
         }
 
@@ -113,9 +113,9 @@ namespace WinFormsApp1
 
         private void button12_Click(object sender, EventArgs e)
         {
-            
+
             //Addition
-          
+
             operator_Click(sender, e);
 
 
@@ -124,14 +124,14 @@ namespace WinFormsApp1
         private void button16_Click(object sender, EventArgs e)
         {
             //Multiplication
-              
+
             operator_Click(sender, e);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
             //division
-           
+
             operator_Click(sender, e);
         }
 
@@ -146,7 +146,7 @@ namespace WinFormsApp1
         private void button10_Click(object sender, EventArgs e)
         {
             //Subtraction
-           
+
             operator_Click(sender, e);
         }
 
@@ -156,21 +156,26 @@ namespace WinFormsApp1
             textBox1.Text = "0";
         }
 
+        private void button17_Click(object sender, EventArgs e)
+        {
 
-       /* System.Data.DataTable dt = new System.Data.DataTable();
+        }
 
-            try
-            {
-                textBox1.Text = dt.Compute(textBox1.Text, "").ToString();
-    }
-            catch (DivideByZeroException)
-            {
-                textBox1.Text = "Error: Division by zero";
-            }
-            catch (Exception)
-            {
-    textBox1.Text = "Error";
-}*/
+
+        /* System.Data.DataTable dt = new System.Data.DataTable();
+
+             try
+             {
+                 textBox1.Text = dt.Compute(textBox1.Text, "").ToString();
+     }
+             catch (DivideByZeroException)
+             {
+                 textBox1.Text = "Error: Division by zero";
+             }
+             catch (Exception)
+             {
+     textBox1.Text = "Error";
+ }*/
     }
 
 

@@ -44,7 +44,6 @@
             groupBox1 = new GroupBox();
             label1 = new Label();
             errorProvider1 = new ErrorProvider(components);
-            timer1 = new System.Windows.Forms.Timer(components);
             dataGridView1 = new DataGridView();
             EmployeeID = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
@@ -130,7 +129,7 @@
             pictureBox1.Image = Properties.Resources.sh_unsplash_5qt09yibrok_4096x2731;
             pictureBox1.Location = new Point(139, 29);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(109, 86);
+            pictureBox1.Size = new Size(109, 80);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
@@ -218,7 +217,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(801, 271);
+            ClientSize = new Size(488, 287);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
             Controls.Add(groupBox1);
@@ -260,7 +259,6 @@
         private GroupBox groupBox1;
         private Label label1;
         private ErrorProvider errorProvider1;
-        private System.Windows.Forms.Timer timer1;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn EmployeeID;
         private DataGridViewTextBoxColumn Column2;

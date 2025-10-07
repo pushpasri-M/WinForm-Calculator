@@ -45,6 +45,7 @@
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            colorDialog1 = new ColorDialog();
             SuspendLayout();
             // 
             // textBox1
@@ -178,7 +179,7 @@
             // 
             // button13
             // 
-            button13.Location = new Point(135, 287);
+            button13.Location = new Point(133, 287);
             button13.Name = "button13";
             button13.Size = new Size(98, 40);
             button13.TabIndex = 13;
@@ -220,6 +221,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.PeachPuff;
             ClientSize = new Size(352, 339);
             Controls.Add(button14);
             Controls.Add(button15);
@@ -238,8 +240,10 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
+            ForeColor = SystemColors.ControlText;
             Name = "Form1";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Calculator";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -264,5 +268,6 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private ColorDialog colorDialog1;
     }
 }
