@@ -36,14 +36,14 @@ This project was developed to strengthen understanding of:
 ---
 
 ## 🛠️ Tech Stack
- ```
+ 
 | Component | Description |
 |------------|--------------|
 | **Language** | C# |
 | **Framework** | .NET Framework 4.8 |
 | **IDE** | Visual Studio |
 | **UI Library** | Windows Forms (WinForms) |
- ```
+
 ---
 
 ## 🧩 Features
